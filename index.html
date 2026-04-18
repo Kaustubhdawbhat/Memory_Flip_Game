@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Flip Game - Kaustubh</title>
+    <link rel="stylesheet" href="stylecard.css">
+</head>
+<body>
+
+    <div class="game-wrapper">
+        <div id="start-screen" class="screen">
+            <h1>Memory Card Flip</h1>
+            <button onclick="startLevel(1)">Start Game</button>
+        </div>
+
+        <div id="game-screen" class="screen hidden">
+            <div class="stats">
+                <h2 id="level-title">Level 1</h2>
+                <p id="match-text">Pairs Matched: <span id="match-count">0</span></p>
+            </div>
+            <div id="card-grid" class="grid"></div>
+        </div>
+
+        <div id="message-screen" class="screen hidden">
+            <h1 id="msg-text">Good!</h1>
+            <button id="action-btn">Next Level</button>
+        </div>
+    </div>
+
+    <script src="scriptcard.js"></script>
+</body>
+</html>
