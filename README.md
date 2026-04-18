@@ -12,8 +12,7 @@ Dynamic Grid: The game layout adjusts automatically based on the number of cards
 Win/Loss Logic: Real-time matching logic and score tracking.
 
 🚀 Live Demo
-Test your memory here:
-Play Memory Flip Game (तुझी लिंक इथे अपडेट कर)
+Test your memory here: https://kaustubhdawbhat.github.io/Memory_Flip_Game/
 
 🛠️ Tech Stack
 HTML5: Game structure and screen management.
